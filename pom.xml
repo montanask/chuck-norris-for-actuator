@@ -8,6 +8,7 @@
     <modules>
         <module>chucknorrisforactuator</module>
         <module>chucknorrisdemo</module>
+        <module>chucknorrisweb</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -30,13 +31,18 @@
             <organization>Spring Framework Guru</organization>
             <organizationUrl>https://springframework.guru</organizationUrl>
         </developer>
+        <developer>
+            <name>Ihor Sukalin</name>
+            <email>naslednikg@gmail.com</email>
+            <organization>Private organization</organization>
+        </developer>
     </developers>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.2</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <version>3.0.1</version>
+        <relativePath />
     </parent>
 
     <properties>
@@ -46,10 +52,10 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/springframeworkguru/chuck-norris-for-actuator.git</connection>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/chuck-norris-for-actuator.git
+        <connection>scm:git:https://github.com/montanask/chuck-norris-for-actuator.git</connection>
+        <developerConnection>scm:git:https://github.com/montanask/chuck-norris-for-actuator.git
         </developerConnection>
-        <url>https://github.com/springframeworkguru/chuck-norris-for-actuator</url>
+        <url>https://github.com/montanask/chuck-norris-for-actuator</url>
         <tag>HEAD</tag>
     </scm>
 
