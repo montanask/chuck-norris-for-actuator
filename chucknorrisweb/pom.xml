@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>guru.springframework</groupId>
-            <artifactId>chuck-norris-demo</artifactId>
+            <artifactId>chuck-norris-for-actuator</artifactId>
             <version>${parent.version}</version>
         </dependency>
 
